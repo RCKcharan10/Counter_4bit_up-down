@@ -1,4 +1,4 @@
-# EXP 2: Counter_4bit_up-down
+# EXP 2: BIT Up-Down Counter - Write Verilog Code and Verify the Functionality using Test-bench
 
 ## Aim:
 
@@ -79,6 +79,7 @@ endmodule
 	Similarly, create your test bench using gedit <filename_tb>.v or <filename_tb>.vhdl to open a new blank document (4bitup_down_count_tb.v).
 
 ### Test-bench code for 4-Bit Up-Down Counter:
+
 ```
 `timescale 1ns / 1ns
 module counter_test;
@@ -107,6 +108,7 @@ initial
 
 endmodule
 ```
+
 ### To Launch Simulation tool
 	linux:/> nclaunch -new&            // “-new” option is used for invoking NCVERILOG for the first time for any design
 
